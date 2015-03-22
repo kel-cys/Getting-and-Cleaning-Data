@@ -26,7 +26,7 @@ The activities are (walking, walking upstair, walking downstair, sitting, sittin
 * fBodyGyroMag
 * fBodyGyroJerkMag
 * activityName
-* subject 1-30 
+* subject
 
 ## Features Info
 mean: mean values of measurements of variables. Numeric
