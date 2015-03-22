@@ -1,2 +1,1 @@
-# Getting-and-Cleaning-Data
-Coursera Data Science Course 3
+# Analysis on Human Activity Recognition Using Smartphones Dataset
