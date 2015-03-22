@@ -64,7 +64,7 @@ data$activityName <- factor(data$activityId, labels =  activityLabel$activityNam
 meltData <- melt(data, id = c("activityId", "activityName", "subject"))
 
 ## Cast the melted dataset according to  the average of each variable 
-## for each activity and each subjec
+## for each activity and each subject
 meanData <- dcast(meltData, activityName + subject ~ variable, mean)
 
 ## Output the tiny data to a text file
